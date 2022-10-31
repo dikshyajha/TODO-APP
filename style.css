@@ -1,0 +1,49 @@
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    color:aliceblue;
+    background-color: rgb(72, 65, 65);
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.737);
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .header{
+    text-align: center;
+  }
+  .task{
+    padding: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  .form{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+  }
+
+  .enter-item{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+  }
+
+  .add-item{
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   background-color: gray;
+   outline: none;
+   font-size: 16px;
+   cursor: pointer;
+  }
