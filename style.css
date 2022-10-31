@@ -47,3 +47,26 @@
    font-size: 16px;
    cursor: pointer;
   }
+
+  #tasklist{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+ 
+#tasklist ul{
+  list-style-type: none;
+}
+
+
+.update, .delete{
+   color: #fff;
+   border: none;
+   border-radius: 8px;
+   background-color: gray;
+   outline: none;
+   font-size: 16px;
+   cursor: pointer;
+   margin-left: 5px;
+}
