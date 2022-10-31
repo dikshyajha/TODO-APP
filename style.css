@@ -59,8 +59,15 @@
   list-style-type: none;
 }
 
+input{
+    margin-top: 5px;
+    border: 3px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+ }
 
-.update, .delete{
+  
+.update, .delete, .save{
    color: #fff;
    border: none;
    border-radius: 8px;
