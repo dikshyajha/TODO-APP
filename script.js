@@ -48,3 +48,15 @@ lists.forEach(element => {
         }
     })
 })
+
+
+//delete part
+lists.forEach(element => {
+    element.addEventListener("click", (event) => {
+        if(event.target.className === "delete"){
+            const li = event.target.parentElement;
+            element.removeChild(li);
+        }
+         
+    })
+})
